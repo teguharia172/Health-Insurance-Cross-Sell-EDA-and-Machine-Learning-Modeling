@@ -220,4 +220,4 @@ While for **Gen X** majority of the customers owned a vehicle that's 1 to 2 year
 
 This table above is evaluation matrix on all the algorithm after hyperparameter tuning, **we are going to focus more on recall** instead of accuracy here because we want to reduce the false **negative ( The customer who actually interested but the model predicted that customer is not interested)** since those kind of problem will lead into lost of potential revenue
 
-it clearly shows that **logistic Regression** has the best recall score with 0.965 recall score
+it clearly shows that **logistic Regression** has the best recall score with 0.965 recall score, please take a look at the machine learning modeling notebook for this classification cause if you need more details on the machine learning process, Thank you
