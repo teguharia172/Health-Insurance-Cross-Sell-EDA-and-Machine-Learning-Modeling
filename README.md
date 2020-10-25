@@ -131,3 +131,93 @@ having an older vehicle means having more problem compared to newer vehicle, pro
 Using the Logistic regression machine learning that has recall of 96.5 % will speed up and find out which customer who actually intersted in vehicle insurance, and we could focus our resource just based on the customers that's interested
 </details>
 
+
+
+<details>
+  <summary><h2> Click to see the the Analysis </h2></summary>
+
+### How does an age of customers vehicle determine the response of vehicle insurance advertisement
+
+![alt-text-2](https://user-images.githubusercontent.com/57277832/97105794-504b3400-16f0-11eb-80a8-c03317a22ea8.png)
+
+-  95% of customers have vehicle that's less than 2 years, the table above it shows that, customers who has more than 2 years of vehicle age are more interested with vehicle insurance advertisment, while customers who has less then one year of vehicle age, only **4%** of them are actually interesred with vehicle insurance 
+
+### Why does customer who have a newer car are less likely to be intersted with vechicle insurance
+
+![image](https://user-images.githubusercontent.com/57277832/97105939-1a5a7f80-16f1-11eb-90bb-4567e10c1280.png)
+
+- **66% Customer who has car for less than one year** are already insuring their vehicle, while customers who has a vehicle that's older than 2 years, **less than one percent of them are insuring their vehicle**   
+
+## Major Factors that makes a customer not intersted with vehicle insurance product
+
+### Customer who already owned a vehicle insurance product is not interested with another one 
+
+![image](https://user-images.githubusercontent.com/57277832/97106036-e3d13480-16f1-11eb-977f-75e68bbe5a81.png)
+
+
+- **Almost Every Customer who already have vehicle insurance is not interested with another one**
+
+### Customer who never had a vehicle damage is also not interested  with vehicle insurance 
+![image](https://user-images.githubusercontent.com/57277832/97106237-ebdda400-16f2-11eb-9299-73b59a72c77e.png)
+
+![image](https://user-images.githubusercontent.com/57277832/97106249-0283fb00-16f3-11eb-9c59-ff8bdbac698c.png)
+
+
+- as we can see from the table and the chart above that only **0.5 %** of customers that never had any vehicle damaged are intersted with vehicle insurance product 
+
+### How to attract customers from different generation 
+
+Before we start with the analysis of **how to attract customers from different generation** we are going to define the age group of each generation since we don't have generation columns at the begining 
+
+#### Generation Group :
+- Millenials : 18 - 34
+- Gen X : 35 - 50
+- Boomer : 51 - 69
+- Silent : 70 and Above
+
+### Generation and Response 
+
+lets start by looking to the response of vehicle insurance advertisment towards every generation
+
+![image](https://user-images.githubusercontent.com/57277832/97106509-a621db00-16f4-11eb-878b-358d42bb555f.png)
+
+from the table above we see that millenials are the least likely to be interested with vehicle insurance, **only 6 % of millenials are actually interested with vehicle insurance**.
+
+
+**While Gen X** seems to be the generation that's most likely to be interested **(21%)** with vehicle insurance, followed by boomer **(14%)**, and silent **(7%)** Generation
+
+### Why do millenials are the least likely to be interested with vehicle insurance 
+
+first we have to look at what generation that most likely already have a vehicle insurance before being approached by our vehicle insurace marketing team
+
+**1.**
+
+
+![image](https://user-images.githubusercontent.com/57277832/97106694-c4d4a180-16f5-11eb-9098-c41f5633bec1.png)
+
+![image](https://user-images.githubusercontent.com/57277832/97106748-01080200-16f6-11eb-9de2-bce35e4f39e5.png)
+
+this might be one of the reason why millenials are least likely to be interested with vehicle insurance from our company, because **63% of millenials already have vehicle insurace**, and this explain why Gen X has the highest interested response, **72% Gen X generation does not have a vehicle insurace**, and from our analysis before owning a vehicle insurance is a major factor why someone is not interested with another vehicle insurance 
+
+
+
+**2**
+
+![image](https://user-images.githubusercontent.com/57277832/97106932-1a5d7e00-16f7-11eb-898d-3fc6d13cce38.png)
+
+
+![image](https://user-images.githubusercontent.com/57277832/97106947-39f4a680-16f7-11eb-80ae-4471abc3e830.png)
+
+
+Second reason might be age of the vehicle, **90 % of millenials owned a vehicle that's less than one year** and from our analysis **66%** of vehicle tha's less than one year is already insured.
+
+While for **Gen X** majority of the customers owned a vehicle that's 1 to 2 years old which have (**32%**) of being insured and gen X are more likely to have vehicle that's older than 2 years compared to millenials
+
+### What Machine Algorithm that work the best when it comes to classfying customers response
+
+![image](https://user-images.githubusercontent.com/57277832/97107105-52b18c00-16f8-11eb-9736-00678e84e0a6.png)
+
+
+This table above is evaluation matrix on all the algorithm after hyperparameter tuning, **we are going to focus more on recall** instead of accuracy here because we want to reduce the false **negative ( The customer who actually interested but the model predicted that customer is not interested)** since those kind of problem will lead into lost of potential revenue
+
+it clearly shows that **logistic Regression** has the best recall score with 0.965 recall score
